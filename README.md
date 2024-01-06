@@ -4,8 +4,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 
-Hero Classifier.
+<h4>Hero Classifier</h4>
+
+Desafio do curso "Potência Tech iFood - Programação do Zero" em parceira com a DIO.
 
 </div>
-
-Desafio do curso "Potência Tech iFood - Programação do Zero" (DIO).

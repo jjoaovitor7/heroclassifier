@@ -7,23 +7,23 @@ class Hero {
     this.xp = xp;
   }
 
-  setName(name: string) {
+  setName(name: string): void {
     this.name = name;
   }
 
-  setXP(xp: number) {
+  setXP(xp: number): void {
     this.xp = xp;
   }
 
-  setRandomXP() {
+  setRandomXP(): void {
     this.xp = Math.floor(Math.random() * 29991);
   }
 
-  getName() {
+  getName(): string {
     return this.name;
   }
 
-  getXP() {
+  getXP(): number {
     return this.xp;
   }
 }

@@ -2,7 +2,7 @@ const Hero = require("./Hero");
 const RankTypes = require("./RankTypes");
 
 class Rank extends Hero {
-  public rank:  InstanceType<typeof RankTypes>;
+  public rank: InstanceType<typeof RankTypes>;
   private _rank: string = "";
 
   constructor(name: string, xp: number) {
@@ -23,15 +23,15 @@ class Rank extends Hero {
     return toCheck >= start && toCheck <= end;
   }
 
-  setRank(xp: number) {
+  setRank(xp: number): void {
     Object.keys(this.rank).forEach((i) => {
-      if (this.checkRange(xp, this.rank[i as keyof  InstanceType<typeof RankTypes>][0], this.rank[i as keyof InstanceType<typeof RankTypes>][1])) {
+      if (this.checkRange(xp, this.rank[i as keyof InstanceType<typeof RankTypes>][0], this.rank[i as keyof InstanceType<typeof RankTypes>][1])) {
         this._rank = i;
       }
     });
   }
 
-  getRank() {
+  getRank(): string {
     return this._rank;
   }
 }
