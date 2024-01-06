@@ -6,6 +6,6 @@
 
 <h4>Hero Classifier</h4>
 
-Desafio do curso "Potência Tech iFood - Programação do Zero" em parceira com a DIO.
+Desafio do curso "Potência Tech iFood - Programação do Zero" em parceria com a DIO.
 
 </div>
