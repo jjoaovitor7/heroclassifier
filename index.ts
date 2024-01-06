@@ -1,5 +1,5 @@
-const Hero = require("./Hero");
-const Rank = require("./Rank");
+const Hero = require("./src/Hero");
+const Rank = require("./src/Rank");
 
 let TheRank: InstanceType<typeof Rank>;
 

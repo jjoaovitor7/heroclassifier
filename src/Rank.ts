@@ -1,5 +1,6 @@
 const Hero = require("./Hero");
 const RankTypes = require("./RankTypes");
+
 class Rank extends Hero {
   public rank:  InstanceType<typeof RankTypes>;
   private _rank: string = "";
