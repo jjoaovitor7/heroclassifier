@@ -1,8 +1,11 @@
-class Hero {
+const Rank = require("./Rank");
+
+class Hero extends Rank {
   private name: string;
   private xp: number;
 
   constructor(name: string, xp: number) {
+    super();
     this.name = name;
     this.xp = xp;
   }
@@ -13,10 +16,6 @@ class Hero {
 
   setXP(xp: number): void {
     this.xp = xp;
-  }
-
-  setRandomXP(): void {
-    this.xp = Math.floor(Math.random() * 29991);
   }
 
   getName(): string {
